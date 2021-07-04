@@ -13,7 +13,7 @@ class TestComponent extends Component {
     }
 
     get_data = async () => {
-        const url = 'http://localhost:5000/index';
+        const url = 'http://46.101.57.37:5000/index';
         const resp = await fetch(url);
         const data = await resp.json();
         console.log('data', data);
